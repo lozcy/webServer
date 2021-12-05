@@ -61,7 +61,7 @@ int main(int argc, char * argv[]) {
     mysql_pool * sql_pool = NULL;
     try {
         sql_pool = new mysql_pool();
-        sql_pool->init("localhost", "root", "lozcy0303", "lozcy", 3306, 20);
+        sql_pool->init("localhost", "root", "lozcy0303", "webserver", 3306, 20);
     }catch (...){
         return 1;
     }
