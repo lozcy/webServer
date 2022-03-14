@@ -23,8 +23,8 @@
 #include <stdarg.h>
 #include <errno.h>
 
-#include "locker.h"
-#include "mysql.h"
+#include "../lock/locker.h"
+#include "../DB/mysql.h"
 class http_conn {
 public:
     /*文件名最大长度*/

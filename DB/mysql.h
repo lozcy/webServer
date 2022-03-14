@@ -11,7 +11,7 @@
 #include <error.h>
 #include <string>
 
-#include "locker.h"
+#include "../lock/locker.h"
 #include <pthread.h>
 
 class mysql_pool{
